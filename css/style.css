@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    background: darkgrey;
+    font-family: 'Lato', sans-serif
+}
+.navbar{
+    background: rgb(0, 0, 0);
+    padding: 2rem 1rem;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right{
+    border: darkgrey 5px ;
+
+}
+.right h1{
+    padding-top: 2rem;
+}
+.right p{
+
+    margin-bottom: 10rem;
+}
+.right img{
+    width: 500px;
+    height: 300px;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+.sign-up a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.content .icon img{
+    width: 32px;
+    height: 32px;
+    padding-right: 0.3rem;
+}
+.sign-up a{
+    margin-bottom: 2rem;
+}
+.container{
+    display: flex;
+}
+.signup-form .row button a{
+    text-decoration: none;
+    color: #fff;
+    
+
+}
